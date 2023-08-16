@@ -1,0 +1,27 @@
+{
+    "name": "bobkorinek/duckie",
+    "description": "Duckie PHP is a framework inspired bz ASP Core.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kryštof Kořínek",
+            "email": "chriskorinek@seznam.cz"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bobkorinek\\Duckie\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bobkorinek\\Duckie\\": "./tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
